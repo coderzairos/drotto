@@ -9,7 +9,7 @@
   
   # Account to use for voting.  Use this if delegation is not supported or
   # desired.  You can leave this unset to default to account_name.
-  :voter_account_name: social
+  :voter_account_name: steemian-sniper
   
   # Account to use for voting power calculations.  Use this if you want to
   # regulate voting from an account other than the voter_account_name.  You can
@@ -18,14 +18,14 @@
   
   # Posting wif is used to vote reply with a confirm comment.  See
   # `support/confirm.md` to customize the confirmation comment.
-  :posting_wif: 5JrvPrQeBBvCRdjv29iDvkwn3EQYZ9jqfAHzrCyUvfbEbRkrYFC
+  :posting_wif: 5K8e1uBn6eDJQ4tDZFEHApiVLrZxakxuRf2BdRWoHyzsJHrkcMu
   
   # Use this if voter_account_name is set.  Defaults to posting_wif if not set.
-  :voting_wif: 5JrvPrQeBBvCRdjv29iDvkwn3EQYZ9jqfAHzrCyUvfbEbRkrYFC
+  :voting_wif: 5K8e1uBn6eDJQ4tDZFEHApiVLrZxakxuRf2BdRWoHyzsJHrkcMu
   
   # Active wif is only used in bounce mode to return funds.  Please transfer
   # funds out of your wallet before using bounce mode.
-  :active_wif: 5JrvPrQeBBvCRdjv29iDvkwn3EQYZ9jqfAHzrCyUvfbEbRkrYFC
+  :active_wif: 5K3jAEWT4EAgksnmzj1Q3VB81ttuT17SpG6v7YBDndCJJ6xU8tn
   
   # Maximum age of post (in minutes).  Bids not accepted are returned, if
   # refunds are enabled.  7,200 minutes is 5 days.  Setting this avoids
@@ -61,7 +61,7 @@
   :reserve_vote_weight: 0.00 %
   
   # Minimum bid amount.
-  :minimum_bid: 2.000 SBD
+  :minimum_bid: 0.001 SBD
   
   # List of alternative assets to allow by using current market rate reported by
   # the Market History API.
