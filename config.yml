@@ -36,7 +36,7 @@
   # Batch vote weight is split between the bidders.  This value also sets the
   # batch timespan.  E.g.: Setting 100.00 % results in one batch every 2.4
   # hours; 50.00 % results in one batch every 1.2 hours; so on.
-  :batch_vote_weight: 100.00 %
+  :batch_vote_weight: 88.00 %
   
   # If present at the beginning of the transfer memo, vote weight will be
   # inverted into a flag.
@@ -61,7 +61,7 @@
   :reserve_vote_weight: 0.00 %
   
   # Minimum bid amount.
-  :minimum_bid: 0.001 SBD
+  :minimum_bid: 0.010 SBD
   
   # List of alternative assets to allow by using current market rate reported by
   # the Market History API.
